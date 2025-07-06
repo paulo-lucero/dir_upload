@@ -2,8 +2,8 @@
 Simple script for copying files from a directory to another, but has following features:
 - The files will be only copy to the another directory if
     - the parent directories exist in the destination directory
-    - if the files are allowed in the directory
-    - if the file isn't not yet existed
+    - if the files are allowed in the destination directory
+    - if the files isn't existed in the destination directory
 - Produce reports, indicating the paths and reason why the files isn't copy
 
 It's good for situation where strict directory structure is needed.
