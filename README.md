@@ -1,10 +1,10 @@
 # About
-Simple script for copying files from a directory to another, but has following features:
-- The files will be only copy to the another directory if
+Simple script for moving files from a directory to another, but has following features:
+- The files will be only move to the another directory if
     - the parent directories exist in the destination directory
     - if the files are allowed in the destination directory
     - if the files isn't existed in the destination directory
-- Produce reports, indicating the paths and reason why the files isn't copy
+- Produce reports, indicating the paths and reason why the files isn't move
 
 It's good for situation where strict directory structure is needed.
 
